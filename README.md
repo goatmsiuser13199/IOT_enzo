@@ -30,7 +30,7 @@ Voici une section sur le matériel utilisé que vous pouvez ajouter au README po
 
 Pour réaliser ce projet de station météo connectée, vous aurez besoin des composants suivants :
 
-1. **Microcontrôleur Arduino** : C'est le cerveau de notre projet qui gère la lecture des capteurs, le contrôle de l'affichage LCD et la communication Wi-Fi.
+1. **Microcontrôleur Arduino UNO WIFI** : C'est le cerveau de notre projet qui gère la lecture des capteurs, le contrôle de l'affichage LCD et la communication Wi-Fi.
 
 2. **Capteur DHT11** : Ce capteur est utilisé pour mesurer la température et l'humidité de l'air. Il est facile à utiliser avec Arduino et fournit des informations essentielles pour notre station météo.
 
@@ -42,6 +42,23 @@ Pour réaliser ce projet de station météo connectée, vous aurez besoin des co
 
 6. **Résistances** : Vous aurez besoin de quelques résistances pour le photo-résistor et potentiellement pour le LCD, selon votre montage.
 
-7. **Câbles de Connexion** : Câbles pour connecter tous les composants entre eux et avec la carte Arduino.
+7. **Plaque de Prototypage (Breadboard)** : Une plaque de prototypage sans soudure pour assembler facilement le circuit sans avoir besoin de souder.
 
-8. **Plaque de Prototypage (Breadboard)** : Une plaque de prototypage sans soudure pour assembler facilement le circuit sans avoir besoin de souder.
+Voici une roadmap proposée pour les évolutions futures de votre station météo connectée. Vous pouvez l'inclure dans le README de votre projet pour guider les développements futurs :
+
+---
+
+## Roadmap
+
+### Évolutions Courtes Termes
+
+1. **Changement de la Consigne de Température via l'Interface Web** : Permettre aux utilisateurs de modifier le seuil de température pour l'activation du buzzer directement depuis l'interface web. Cela apportera une flexibilité supplémentaire et permettra aux utilisateurs de s'adapter à différentes conditions sans avoir à reprogrammer le microcontrôleur.
+
+2. **Authentification Utilisateur pour l'Interface Web** : Ajouter une couche de sécurité pour l'accès à l'interface web de la station météo. Cela garantira que seuls les utilisateurs autorisés peuvent voir les données de la station météo et ajuster ses paramètres.
+
+### Évolutions Moyennes Termes
+
+3. **Ajout de Commandes pour Moteurs** : Intégrer la possibilité de contrôler des moteurs depuis la station météo, par exemple pour ouvrir ou fermer une fenêtre automatiquement en fonction de la température ou de l'humidité. Cela pourrait être géré via l'interface web et permettrait une gestion plus active de l'environnement.
+
+4. **Support de Capteurs Supplémentaires** : Ajouter la prise en charge de capteurs supplémentaires tels que la qualité de l'air, la pression atmosphérique, ou la vitesse du vent pour une surveillance environnementale plus complète.
+
