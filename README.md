@@ -1,4 +1,4 @@
-[VIDEO DE PRESENTAION](https://youtu.be/zhIhpYF2-kY)
+[VIDEO DE PRESENTATION](https://youtu.be/zhIhpYF2-kY)
 
 
 ## Fonctionalitées
@@ -28,6 +28,7 @@ Ce code est parfait pour un projet DIY de station météo à domicile, permettan
 Voici une section sur le matériel utilisé que vous pouvez ajouter au README pour le projet :
 
 ---
+![](/SCHEMA.png)
 
 ## Matériel Utilisé
 
