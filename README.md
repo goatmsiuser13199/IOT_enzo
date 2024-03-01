@@ -1,3 +1,5 @@
+## Fonctionalitées
+
 Ce code est destiné à être utilisé avec un microcontrôleur Arduino pour créer une station météo connectée qui mesure la température, l'humidité et le niveau de lumière. Voici les fonctionnalités principales :
 
 1. **Capteurs et Affichage** :
