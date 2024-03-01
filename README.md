@@ -12,7 +12,7 @@ Ce code est destiné à être utilisé avec un microcontrôleur Arduino pour cr�
 
 3. **Connexion Wi-Fi** :
    - Se connecte à un réseau Wi-Fi spécifié.
-   - Met en place un serveur web sur le microcontrôleur qui peut être accédé depuis un navigateur pour voir les mesures actuelles.
+   - Met en place un serveur web sur le microcontrôleur qui peut être accédé depuis un navigateur pour voir les mesures actuelles. (entrer l'adresse ip de l'arduino dans un navigateur web)
 
 4. **Boucle Principale** :
    - Dans la boucle principale (`loop`), le code lit les valeurs des capteurs, met à jour l'affichage LCD, et vérifie s'il y a des clients connectés au serveur web pour leur envoyer les données actuelles en format HTML.
