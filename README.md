@@ -25,10 +25,10 @@ Ce code est destiné à être utilisé avec un microcontrôleur Arduino pour cr�
    - Utilise des délais pour gérer la connexion Wi-Fi et les intervalles de mesure.
 
 Ce code est parfait pour un projet DIY de station météo à domicile, permettant à l'utilisateur de surveiller les conditions environnementales en temps réel tant localement (via l'écran LCD) que à distance (via le serveur web).
-Voici une section sur le matériel utilisé que vous pouvez ajouter au README pour le projet :
+
 
 ---
-![](/SCHEMA.png)
+![SCHEMA](/SCHEMA.png)
 
 ## Matériel Utilisé
 
